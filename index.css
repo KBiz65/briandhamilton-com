@@ -1,0 +1,431 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  font-size: 62.5%; /* 1rem == 10px */
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "goodfish_rg";
+  src: url("GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff2")
+      format("woff2"),
+    url("goodfish_rg-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.go_home {
+  margin: 1rem 0 4rem 0;
+  width: 80%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header_link a {
+  font-family: "goodfish_rg", sans-serif;
+  font-size: 1.6rem;
+  color: #b81104;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.navbar {
+  display: none;
+}
+
+.name_container {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.name_container .name_text_container {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.name_container .name_text_container .name_greeting {
+  margin: 0;
+  width: 100%;
+  font-family: "goodfish_rg", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #7d7d7d;
+}
+
+.name_container .name_text_container .name_big {
+  margin: 0;
+  width: 100%;
+  font-family: "goodfish_rg", sans-serif;
+  font-size: 6rem;
+  font-weight: normal;
+  color: #311e18;
+}
+
+.name_container .name_text_container .name_text {
+  margin: 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #311e18;
+}
+
+.name_link_container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.name_link_container a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 100%;
+  text-decoration: none;
+  color: #311e18;
+}
+
+.name_link_container .name_link_text {
+  width: 28%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.name_link_container .name_link_image {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.name_link_container img {
+  width: 24px;
+  height: auto;
+}
+
+.name_container img {
+  max-width: 187px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.projects {
+  margin-top: 4rem;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.projects .project_1_container {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.projects .project_1_container .project_1_header {
+  width: 100%;
+  font-family: "goodfish_rg", serif;
+  font-size: 2.6rem;
+  color: #311e18;
+}
+
+.projects .project_1_container .project_1_text {
+  margin-top: 0.5rem;
+  width: 75%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+  color: #7d7d7d;
+}
+
+.projects .project_1_container .project_link_container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.projects .project_1_container .project_link_container a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 100%;
+  text-decoration: none;
+  color: #311e18;
+}
+
+.projects .project_1_container .project_link_container .project_link_text {
+  width: 23%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.projects .project_1_container .project_link_container .project_link_image {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.projects .project_1_container .project_link_container img {
+  width: 24px;
+  height: auto;
+}
+
+.projects .project_2_container {
+  margin-top: 4rem;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.projects .project_2_container .project_2_header {
+  width: 100%;
+  font-family: "goodfish_rg", serif;
+  font-size: 2.6rem;
+  color: #311e18;
+}
+
+.projects .project_2_container .project_2_text {
+  margin-top: 0.5rem;
+  width: 75%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+  color: #7d7d7d;
+}
+
+.projects .project_2_container .project_link_container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.projects .project_2_container .project_link_container a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 100%;
+  text-decoration: none;
+  color: #311e18;
+}
+
+.projects .project_2_container .project_link_container .project_link_text {
+  width: 26%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.projects .project_2_container .project_link_container .project_link_image {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.projects .project_2_container .project_link_container img {
+  width: 24px;
+  height: auto;
+}
+
+.projects .project_3_container {
+  margin: 4rem 0;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.projects .project_3_container .project_3_header {
+  width: 100%;
+  font-family: "goodfish_rg", serif;
+  font-size: 2.6rem;
+  color: #311e18;
+}
+
+.projects .project_3_container .project_3_text {
+  margin-top: 0.5rem;
+  width: 75%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+  color: #7d7d7d;
+}
+
+.projects .project_3_container .project_link_container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.projects .project_3_container .project_link_container a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 100%;
+  text-decoration: none;
+  color: #311e18;
+}
+
+.projects .project_3_container .project_link_container .project_link_text {
+  width: 31%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.projects .project_3_container .project_link_container .project_link_image {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.projects .project_3_container .project_link_container img {
+  width: 24px;
+  height: auto;
+}
