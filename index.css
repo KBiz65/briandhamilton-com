@@ -193,28 +193,21 @@ body {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 35%;
   text-decoration: none;
   color: #311e18;
 }
 
 .name_link_container .name_link_text {
-  width: 28%;
+  width: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: bold;
 }
 
-.name_link_container .name_link_image {
-  display: flex;
-  width: 70%;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.name_link_container img {
+.name_link_container .name_link_text img {
   width: 24px;
-  height: auto;
+  vertical-align: middle;
 }
 
 .name_container img {
@@ -280,22 +273,15 @@ body {
 }
 
 .projects .project_1_container .project_link_container .project_link_text {
-  width: 23%;
+  width: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: bold;
 }
 
-.projects .project_1_container .project_link_container .project_link_image {
-  display: flex;
-  width: 70%;
-  align-items: center;
-  justify-content: flex-start;
-}
-
 .projects .project_1_container .project_link_container img {
   width: 24px;
-  height: auto;
+  vertical-align: middle;
 }
 
 .projects .project_2_container {
@@ -346,22 +332,15 @@ body {
 }
 
 .projects .project_2_container .project_link_container .project_link_text {
-  width: 26%;
+  width: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: bold;
 }
 
-.projects .project_2_container .project_link_container .project_link_image {
-  display: flex;
-  width: 70%;
-  align-items: center;
-  justify-content: flex-start;
-}
-
 .projects .project_2_container .project_link_container img {
   width: 24px;
-  height: auto;
+  vertical-align: middle;
 }
 
 .projects .project_3_container {
@@ -412,20 +391,13 @@ body {
 }
 
 .projects .project_3_container .project_link_container .project_link_text {
-  width: 31%;
+  width: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: bold;
 }
 
-.projects .project_3_container .project_link_container .project_link_image {
-  display: flex;
-  width: 60%;
-  align-items: center;
-  justify-content: flex-start;
-}
-
 .projects .project_3_container .project_link_container img {
   width: 24px;
-  height: auto;
+  vertical-align: middle;
 }
