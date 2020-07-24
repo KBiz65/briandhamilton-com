@@ -94,9 +94,10 @@ video {
 
 @font-face {
   font-family: "goodfish_rg";
-  src: url("GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff2")
+  src: url("../GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff2")
       format("woff2"),
-    url("goodfish_rg-webfont.woff") format("woff");
+    url("../GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff")
+      format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -115,10 +116,13 @@ body {
 }
 
 .go_home {
-  margin: 1rem 0 4rem 0;
+  margin: 0rem 0 4rem 0;
+  padding: 1rem 0;
   width: 80%;
   align-items: center;
   justify-content: flex-start;
+  position: fixed;
+  background-color: white;
 }
 
 .header_link a {
@@ -140,6 +144,8 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: nowrap;
+  margin-top: 4rem;
+  padding-top: 2rem;
 }
 
 .name_container .name_text_container {
