@@ -1,0 +1,240 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  font-size: 62.5%; /* 1rem == 10px */
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "goodfish_rg";
+  src: url("../GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff2")
+      format("woff2"),
+    url("../GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.red {
+  color: #b81104;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.go_home {
+  margin: 0rem 0 4rem 0;
+  padding: 1rem 0;
+  width: 80%;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  background-color: white;
+}
+
+.header_link a {
+  font-family: "goodfish_rg", sans-serif;
+  font-size: 1.6rem;
+  color: #b81104;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.navbar {
+  display: flex;
+  width: 80%;
+  margin-top: 6rem;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.nav-ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-ul .nav-line {
+  font-family: "goodfish_rg";
+  font-size: 1.6rem;
+}
+
+.nav-ul .nav-list-item a {
+  text-decoration: none;
+  color: #7d7d7d;
+  font-family: "goodfish_rg", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+#about a {
+  color: #b81104;
+}
+
+.main-container {
+  display: flex;
+  width: 80%;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+
+.para-text {
+  display: flex;
+  width: 70%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #311e18;
+}
+
+.para-text .second-para {
+  margin-top: 2rem;
+}
+
+.about-image img {
+  width: 192px;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  width: 80%;
+  margin-top: 4rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.find-me {
+  font-family: "goodfish_rg", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #7d7d7d;
+}
+
+.contact-icons {
+  margin-top: 2rem;
+  display: flex;
+  width: 20%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contact-icons img {
+  width: 32px;
+  height: auto;
+}
+
+.contact-email {
+  font-family: "goodfish_rg", sans-serif;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}

@@ -94,9 +94,10 @@ video {
 
 @font-face {
   font-family: "goodfish_rg";
-  src: url("GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff2")
+  src: url("../GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff2")
       format("woff2"),
-    url("goodfish_rg-webfont.woff") format("woff");
+    url("../GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff")
+      format("woff");
   font-weight: normal;
   font-style: normal;
 }
