@@ -176,100 +176,109 @@ body {
   font-weight: 400;
 }
 
-#digital_art a {
+#cheesecake a {
   color: #b81104;
 }
 
-.main-flex-container {
-  margin-top: 12rem;
+.flex-container {
+  display: flex;
   width: 80%;
-  height: auto;
+  margin-top: 12rem;
+  flex-direction: column;
+  justify-content: center;
+  color: #311e18;
+}
+
+.first-para {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
   line-height: 2.2rem;
   color: #311e18;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
 }
 
-.flex-row {
+.banner-pic > img {
   width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  height: 38.4rem;
   margin-top: 4rem;
+  object-fit: cover;
 }
 
-.flex-row-first {
-  margin-top: 0rem;
-}
-
-.flex-row-top-text {
-  font-family: "Open Sans", sans-serif;
-}
-
-.flex-row-first-col {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.flex-row-header {
-  width: 100%;
-  height: auto;
-  font-family: "goodfish_rg", sans-serif;
-  font-size: 1.8rem;
-}
-
-.flex-row-text {
-  width: 100%;
-  height: auto;
-  padding-top: 4rem;
+.banner-pic .caption {
+  text-align: center;
   font-family: "Open sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
-.flex-row-pic {
-  width: 40%;
+.cheesecakes-container {
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-}
-
-.flex-row-pic img {
-  width: 32rem;
-  height: auto;
-  border-radius: 10px;
-  max-width: 320px;
-  max-height: 432px;
-}
-
-.flex-row-second-col .flex-row-pic {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   justify-content: space-between;
+  margin-bottom: 8rem;
 }
 
-.flex-row-second-col .flex-row-pic img {
-  width: 32rem;
+.cheesecakes-col-1 {
+  width: 48%;
   height: auto;
-  border-radius: 10px;
-  max-width: 320px;
-  max-height: 230px;
 }
 
-.club-m-1,
-.tuscon-jaycees-1 {
-  margin-bottom: 1rem;
+.col-1-pics > img {
+  margin-top: 8rem;
+  width: 100%;
+  height: 29.2rem;
+  object-fit: cover;
 }
 
-.flex-row-pic .blizzard {
-  max-height: 230px;
+.cheesecakes-col-1 .caption {
+  margin-top: 0.8rem;
+  text-align: start;
+  font-family: "Open sans", sans-serif;
+  font-size: 1rem;
+}
+
+.cheesecakes-col-2 {
+  width: 50%;
+  height: auto;
+}
+
+.small-header {
+  margin-top: 8rem;
+  text-align: start;
+  font-family: "goodfish_rg", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.title {
+  margin-top: 2rem;
+  font-style: italic;
+  font-family: "Open sans", sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.8rem;
+}
+
+.cheesecakes-col-2 ul {
+  list-style: none;
+  columns: 2;
+}
+
+.cheesecakes-col-2 li {
+  font-style: normal;
+  font-family: "Open sans", sans-serif;
+  font-size: 1.15rem;
+  line-height: 2rem;
+}
+
+.cheesecakes-col-2 .most-requested li:nth-child(-n + 5),
+.cheesecakes-col-2 .in-the-works li:nth-child(-n + 5) {
+  margin-right: 0.5rem;
+}
+.cheesecakes-col-2 .other-flavors li:nth-child(-n + 26) {
+  margin-right: 0.5rem;
+}
+
+img {
+  border-radius: 5px;
 }
