@@ -1,0 +1,301 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  font-size: 62.5%; /* 1rem == 10px */
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "goodfish_rg";
+  src: url("../GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff2")
+      format("woff2"),
+    url("../GoodfishFont/goodfish_regular_macroman/goodfish_rg-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.red {
+  color: #b81104;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.go_home {
+  margin: 0rem 0 4rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 80%;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  background-color: white;
+}
+
+.header_link a {
+  font-family: "goodfish_rg", sans-serif;
+  font-size: 1.6rem;
+  color: #b81104;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.navbar {
+  display: flex;
+  width: 80%;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  position: fixed;
+  background-color: white;
+}
+
+.nav-ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-ul .nav-line {
+  font-family: "goodfish_rg";
+  font-size: 1.6rem;
+}
+
+.nav-ul .nav-list-item a {
+  text-decoration: none;
+  color: #7d7d7d;
+  font-family: "goodfish_rg", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+#photography a {
+  color: #b81104;
+}
+
+.flex-container {
+  display: flex;
+  width: 80%;
+  margin-top: 12rem;
+  flex-direction: row;
+}
+
+.first-para {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #311e18;
+}
+
+.mosaic-main {
+  display: grid;
+  width: 80%;
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(22, 1fr);
+}
+
+.mosaic-main > img {
+  align-self: stretch;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.col-1-pic {
+  grid-column: 1 / 2;
+  width: 100%;
+}
+
+.col-2-pic {
+  grid-column: 2 / 3;
+  width: 100%;
+}
+
+.col-3-pic {
+  grid-column: 3 / 4;
+  width: 100%;
+}
+
+.pic-1 {
+  grid-row: 1 / 4;
+}
+
+.pic-2 {
+  grid-row: 1 / 6;
+}
+
+.pic-3 {
+  grid-row: 1 / 4;
+}
+
+.pic-4 {
+  grid-row: 4 / 7;
+}
+
+.pic-5 {
+  grid-row: 4 / 7;
+}
+
+.pic-6 {
+  grid-row: 7 / 10;
+}
+
+.pic-7 {
+  grid-row: 6 / 11;
+}
+
+.pic-8 {
+  grid-row: 7 / 10;
+}
+
+.pic-9 {
+  grid-row: 10 / 13;
+}
+
+.pic-10 {
+  grid-row: 11 / 16;
+}
+
+.pic-11 {
+  grid-row: 10 / 13;
+}
+
+.pic-12 {
+  grid-row: 13 / 16;
+}
+
+.pic-13 {
+  grid-row: 13 / 16;
+}
+
+.pic-14 {
+  grid-row: 16 / 19;
+}
+
+.pic-15 {
+  grid-row: 16 / 22;
+}
+
+.pic-16 {
+  grid-row: 16 / 19;
+}
+
+.pic-17 {
+  grid-row: 19 / 22;
+}
+
+.pic-18 {
+  grid-row: 19 / 22;
+}
