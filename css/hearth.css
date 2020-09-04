@@ -129,7 +129,7 @@ body {
   margin: 0rem 0 4rem 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  width: 80%;
+  width: 60%;
   align-items: center;
   justify-content: flex-start;
   position: fixed;
@@ -146,7 +146,7 @@ body {
 
 .main-flex-container {
   display: flex;
-  width: 80%;
+  width: 60%;
   height: auto;
   flex-direction: row;
   flex-wrap: wrap;
@@ -195,7 +195,7 @@ body {
 }
 
 .row-title {
-  width: 40%;
+  width: 49%;
   height: auto;
   font-family: "goodfish_rg", sans-serif;
   font-size: 3rem;
@@ -203,7 +203,7 @@ body {
 }
 
 .row-info-50 {
-  width: 40%;
+  width: 49%;
   height: auto;
   display: flex;
   flex-direction: column;

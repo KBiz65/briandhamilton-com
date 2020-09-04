@@ -128,7 +128,7 @@ body {
   margin: 0rem 0 4rem 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  width: 80%;
+  width: 60%;
   align-items: center;
   justify-content: flex-start;
   position: fixed;
@@ -145,7 +145,7 @@ body {
 
 .navbar {
   display: flex;
-  width: 80%;
+  width: 60%;
   margin-top: 3rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -182,7 +182,7 @@ body {
 
 .flex-container {
   display: flex;
-  width: 80%;
+  width: 60%;
   margin-top: 12rem;
   flex-direction: column;
   justify-content: center;

@@ -126,7 +126,7 @@ body {
 .go_home {
   margin: 0rem 0 4rem 0;
   padding: 1rem 0;
-  width: 80%;
+  width: 60%;
   align-items: center;
   justify-content: flex-start;
   position: fixed;
@@ -143,11 +143,15 @@ body {
 
 .navbar {
   display: flex;
-  width: 80%;
-  margin-top: 6rem;
+  width: 60%;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   align-items: flex-start;
   justify-content: center;
   flex-direction: row;
+  position: fixed;
+  background-color: white;
 }
 
 .nav-ul {
@@ -176,14 +180,16 @@ body {
 
 .main-container {
   display: flex;
-  width: 80%;
-  margin-top: 4rem;
+  width: 60%;
+  margin-top: 12rem;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
 .para-text {
   display: flex;
-  width: 70%;
+  width: 65%;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
@@ -191,21 +197,30 @@ body {
   font-size: 1.2rem;
   line-height: 2rem;
   color: #311e18;
+  border: 2px;
 }
 
 .para-text .second-para {
   margin-top: 2rem;
 }
 
-.about-image img {
-  width: 192px;
+.about-image {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-image > img {
+  max-width: 15rem;
   height: auto;
   border-radius: 10px;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 footer {
   display: flex;
-  width: 80%;
+  width: 60%;
   margin-top: 4rem;
   flex-direction: column;
   align-items: flex-start;
