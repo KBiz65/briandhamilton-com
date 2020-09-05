@@ -117,7 +117,7 @@ body {
 }
 
 .red {
-  color: #b81104;
+  color: #f31200;
 }
 
 .bold {
@@ -138,7 +138,7 @@ body {
 .header_link a {
   font-family: "goodfish_rg", sans-serif;
   font-size: 1.6rem;
-  color: #b81104;
+  color: #f31200;
   text-decoration: none;
   font-weight: 400;
 }
@@ -177,7 +177,7 @@ body {
 }
 
 #digital_art a {
-  color: #b81104;
+  color: #f31200;
 }
 
 .main-flex-container {
